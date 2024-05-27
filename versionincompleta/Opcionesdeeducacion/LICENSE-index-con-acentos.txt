@@ -1,0 +1,275 @@
+Creative Commons Attribution 3.0 Unported
+http://creativecommons.org/licenses/by/3.0/
+
+License
+
+DATOS DE MUNICIPIOS
+
+
+UPDATE municipios SET NOMBREMUN='ACAMBAY DE RUIZ CASTAÑEDA' WHERE NOMBREMUN='ACAMBAY DE RUIZ CASTA¥EDA'
+
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>SEP-OpcionesEdu Superior</title>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="img/favicon.ico">
+<link rel="stylesheet" href="assets/css/main.css" />                    
+<script language="javascript" src="js/jquery.js"></script>
+<script language="javascript" src="js/jquery-edu.js"></script>
+<link rel="stylesheet" href="assets/css/stylemycss.css" />
+<link rel="stylesheet" href="assets/css/main.css" />    
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+                                                    <a href="#" >	<img id="esc"  src="img/escudo_limpio.png"></a>
+							<h1 id="title">Secretaría de Educación</h1>
+							<p>Opciones en Educación Superior</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							
+							<ul>
+<li><a id="updatemusicavg" href="#top"  class="skel-layers-ignoreHref"><span class="icon fa-home">Inicio</span></a></li>
+<li><a id="estadistica1" href="#top1"  class="skel-layers-ignoreHref"><span class="icon fa-edit">Instituciones</span></a></li>
+<li><a id="estadistica2" href="#top2"  class="skel-layers-ignoreHref"><span class="icon fa-edit">Tec.Superior</span></a></li>
+<li><a id="estadistica3" href="#top3"  class="skel-layers-ignoreHref"><span class="icon fa-edit">Licenciaturas</span></a></li>
+<li><a id="estadistica4" href="#top4"  class="skel-layers-ignoreHref"><span class="icon fa-edit">Especialidad</span></a></li>
+<li><a id="estadistica5" href="#top5"  class="skel-layers-ignoreHref"><span class="icon fa-edit">Maestrías</span></a></li>
+<li><a id="estadistica6" href="#top6"  class="skel-layers-ignoreHref"><span class="icon fa-edit">Doctorados</span></a></li>
+<li><a id="estadistica7" href="#top7"  class="skel-layers-ignoreHref"><span class="icon fa-edit">Municipios</span></a></li>
+<li><a  href="#about" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-file">Directorío</span></a></li>
+<li><a  href="#contact" id="top-link-glo" class="skel-layers-ignoreHref"><span class="icon fa-th">Glosario</span></a></li>
+
+							</ul>
+						</nav>
+
+				</div>
+
+				<div id="avg-kid" class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+                                                    <li><a id="tuiter" href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                                                    <li><a id="faceb" href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                                                    <li><a id="youtb" href="#" class="icon fa-youtube"><span class="label">Dribbble</span></a></li>
+							
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+                            
+                            
+                            
+
+				<!-- Intro -->
+					<section id="top" class="three">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Opciones de <strong>Educación Superior</strong><br /></h2>
+				
+                                                                
+                                                                
+							</header>
+                                                    <div>           
+                                                        
+                                                            <div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+                                                    <li><a id="tuiterpajarito" href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                                                    <li><a id="faceblibro" href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                                                    <li><a id="youtbrvvo" href="#" class="icon fa-file" title="Ingreso a RVOE"><span class="label">Dribbble</span></a></li>
+                                                    <li><a id="aa" href="http://planeacion.sep.gob.mx/" class="icon fa-file"><span class="label"></span></a></li>
+                                                    <li><a id="a" href="http://www.snie.sep.gob.mx/estadisticas_educativas.html" class="icon fa-file"><span class="label"></span></a></li>
+                                                    
+						</ul>
+
+				</div>
+                                      <!--texto-->       
+                                                                
+                                                                <p>
+                                                                    <!--texto-->
+                                                                </p>
+</div>
+
+							<footer>
+								
+                                                                
+                                                                <div id="carrusel911" class="responsive"></div>                                                       
+
+                                                                
+    
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                               
+                                                                
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- modulo1 -->
+					<section id="top1" class="three">
+						
+
+							<header>
+								<h2>Instituciones</h2>
+                                                               <a  href="#top1" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-toggle-down"></span></a>
+                                                               
+							</header>
+                                            
+                                            <div id="modulos1" class="form-row"></div>
+					</section>
+                                <!-- modulo2 -->
+					<section id="top2" class="three">
+						
+
+							<header>
+								<h2>Tec.Superior</h2>
+                                                                <a  href="#top2" id="top-linkk" class="skel-layers-ignoreHref"><span class="icon fa-toggle-down"></span></a>
+							</header>
+                                            <div id="modulos2" class="form-row"></div>
+					</section>
+                                <!-- modulo3 -->
+					<section id="top3" class="three">
+						
+
+							<header>
+								<h2>Licenciaturas</h2>
+                                                                <a  href="#top3" id="top-linkk3" class="skel-layers-ignoreHref"><span class="icon fa-toggle-down"></span></a>
+							</header>
+                                            <div id="modulos3" class="form-row"></div>
+					</section>
+                                <!-- modulo4 -->
+					<section id="top4" class="three">
+						
+
+							<header>
+								<h2>Especialidad</h2>
+                                                                <a  href="#top4" id="top-link4" class="skel-layers-ignoreHref"><span class="icon fa-toggle-down"></span></a>
+							</header>
+                                            <div id="modulos4" class="form-row"></div>
+					</section>
+                                <!-- modulo5 -->
+					<section id="top5" class="three">
+						
+
+							<header>
+								<h2>Maestrías</h2>
+                                                                <a  href="#top5" id="top-linkk5" class="skel-layers-ignoreHref"><span class="icon fa-toggle-down"></span></a>
+							</header>
+                                            <div id="modulos5" class="form-row"></div>
+					</section>
+                                <!-- modulo6 -->
+					<section id="top6" class="three">
+						
+
+							<header>
+								<h2>Doctorados</h2>
+                                                                <a  href="#top6" id="top-link6" class="skel-layers-ignoreHref"><span class="icon fa-toggle-down"></span></a>
+							</header>
+                                            <div id="modulos6" class="form-row"></div>
+					</section>
+                                <!-- modulo7 -->
+					<section id="top7" class="three">
+						
+
+							<header>
+								<h2>Municipios</h2>
+                                                                <a  href="#top7" id="top-link69" class="skel-layers-ignoreHref"><span class="icon fa-toggle-down"></span></a>
+							</header>
+                                            <div id="modulos7" class="form-row"></div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Directorío</h2>
+							</header>
+
+							
+
+                                                    <p><strong id="idcolor"><b>Dr. en D. Eruviel Ávila Villegas </b></strong></p>
+                                                    <p><strong id="idcolor"><b>Gobernador Constitucional del Estado de México</b></strong></p>
+                                                    <p><strong id="idcolor"><b>Lic. Ana Lidia Herrera Anzaldo</b></strong></p>
+                                                    <p><strong id="idcolor"><b>Secretaría de Educación</b></strong></p>
+                                                    <p><strong id="idcolor"><b>Lic. Alfredo Martinez Gonzalez </b></strong></p>
+                                                    <p><strong id="idcolor"><b>Subsecretario de Educación Media Superior y Superior</b></strong></p>
+                                                    <p><strong id="idcolor"><b>Mtra. Amalia Cristina Gaytan Vargas</b></strong></p>
+                                                    <p><strong id="idcolor"><b>Directora General de Educación Superior</b></strong></p>
+                                                    <p><strong id="idcolor"><b>Profr. Isaías Aguilar Hernández</b></strong></p>
+                                                    <p><strong id="idcolor"><b>Jefe de la Unidad de Planeación, Profesiones, Escuelas Incorporadas y Evaluación</b></strong></p>
+                                                    <p><strong id="idcolor"><b>Lic. En M.A.C. Jorge David Ruvalcaba Garcia</b></strong></p>
+                                                    <p><strong id="idcolor"><b>Asesor de la Unidad de Planeación, Profesiones, Escuelas Incorporadas y Evaluación</b></strong></p>
+                                                    
+
+						</div>
+					</section>
+
+				
+                                
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy;Gobierno del Estado de México
+                                                    Secretaría de Educación Subsecretaría
+                                                    de Educación Media Superior y Superior
+                                                    Unidad de Planeación Profesiones,
+                                                    Escuelas Incorporadas y Evaluación</li>
+                                                <li>Lerdo Poniente 101, Segundo Piso, Puerta 412, 
+Edificio Plaza Toluca, Toluca, Estado de México
+Colonia Centro, Código Postal 50000 
+<a href="mailto:uppeiye@hotmail.com">uppeiye@hotmail.com</a>
+Tel. 01(722) 2-15-86-54</li>
+                                                <li>2017</li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts abraham velazquez gonzalez-kid matatan-->
+                
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+
+
+
+
+
+
+

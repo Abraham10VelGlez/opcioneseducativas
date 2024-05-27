@@ -1,0 +1,63 @@
+.columna {
+  width:33%;
+  float:left;
+}
+
+@media (max-width: 500px) {
+  
+  .columna {
+    width:auto;
+    float:none;
+  }
+  
+}
+
+
+h1{
+    font-family: fantasy ;
+}
+div#btnwhereorg{
+    display: none;
+}
+div#divbtns{
+    display: none;
+}
+div {
+/*  -webkit-border-radius: 5px 10px;   Safari  
+  -moz-border-radius: 5px 10px;      Firefox */
+}
+
+div#avgmodulo1{
+    /*style="width:200px; height:180px; overflow: scroll;"*/
+   /* width:auto;
+    height:500px;*/
+    overflow: scroll;
+    display: none;
+}
+
+
+section#posts
+{
+float: left;
+width: 35%;
+margin-left: 5%;
+font-size: 20px;
+line-height: 40px;
+}
+
+section#posts11
+{
+/*white-space: nowrap;*/
+width: 35%;
+margin-left: 5%;
+font-size: 20px;
+line-height: 40px;
+}
+section#posts2
+{
+float: right;
+width: 55%;
+margin-left: 5%;
+font-size: 20px;
+line-height: 40px;
+}

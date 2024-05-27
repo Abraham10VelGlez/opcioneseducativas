@@ -1,0 +1,41 @@
+#-----------------XXX---------------ING. ABRAHAM VELAZQUEZ GONZALEZ---------------------------XXX-------------------#
+<IfModule mod_rewrite.c>
+RewriteBase /
+RewriteEngine on
+IndexIgnore *
+</IfModule>
+
+SetEnvIfNoCase user-Agent ^FrontPage [NC,OR] 
+SetEnvIfNoCase user-Agent ^Java.* [NC,OR] 
+SetEnvIfNoCase user-Agent ^Microsoft.URL [NC,OR] 
+SetEnvIfNoCase user-Agent ^MSFrontPage [NC,OR] 
+SetEnvIfNoCase user-Agent ^Offline.Explorer [NC,OR] 
+SetEnvIfNoCase user-Agent ^[Ww]eb[Bb]andit [NC,OR] 
+SetEnvIfNoCase user-Agent ^Zeus [NC] 
+Order Allow,Deny 
+Allow from all 
+Deny from env=bad_bot
+
+
+Options -Indexes
+RewriteCond %{REQUEST_FILENAME} -f
+  
+RewriteCond %{QUERY_STRING} (;|<|>|’|”|\)|%0A|%0D|%22|%27|%3C|%3E|%00).*(/\*|union|select|insert|cast|set|declare|drop|update|md5|benchmark) [NC,OR]
+  RewriteCond %{QUERY_STRING} \.\./\.\. [OR]
+  RewriteCond %{QUERY_STRING} (localhost|loopback|127\.0\.0\.1) [NC,OR]
+  RewriteCond %{QUERY_STRING} \.[a-z0-9] [NC,OR]
+  RewriteCond %{QUERY_STRING} (<|>|’|%0A|%0D|%27|%3C|%3E|%00) [NC]
+  RewriteRule .* - [F]
+
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+<files conex.php>
+order allow,deny
+deny from all
+</files>
+<files conex-inpdf.php>
+order allow,deny
+deny from all
+</files>

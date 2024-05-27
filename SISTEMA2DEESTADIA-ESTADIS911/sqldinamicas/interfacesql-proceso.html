@@ -1,0 +1,708 @@
+<html  lang="es">
+    <head>
+   
+<!--<link href="css/style.css" rel="stylesheet" />-->
+<script src="https://code.jquery.com/jquery-3.2.0.js"></script>
+<script src="js/jquery.js"></script>
+
+<script src="js/jquery-functions.js"></script>
+<script>
+    
+    $(document).ready(function(){
+        
+        
+        $('#v').click(function(){
+            alert("funcion de limpieza");
+            
+            document.getElementById('val').value='';
+            document.getElementById('val2').value='';
+            document.getElementById('selecttt').value='';
+            
+            
+        })
+    })
+    
+    
+    
+    
+</script>
+    </head>
+    <body>
+        
+        
+        
+        
+        
+        <select   onchange="opselec(this.value)">
+<option value="#"> Selecciona un operador </option>
+<option value="7"> like </option>  
+<option value="1"> = </option>
+<option value="2"> < </option>
+<option value="3"> > </option>
+<option value="4"> <> </option>
+<option value="5"> <= </option> 
+<option value="6"> >= </option>           
+</select>
+        
+        
+        
+        
+        
+        
+        <table border='3'>
+            <tr>
+    <td>".$nombre_columnas."</td>
+    <td>".$nombre_columnas."</td>
+    <td>".$nombre_columnas."</td>
+    </tr>
+<tr>
+<td>$vector[$valor];</td>
+<td>$vector[$valor];</td>
+<td>$vector[$valor];</td>
+</tr>       
+    </table>
+
+        
+        
+        
+        <div id="agreg"></div>
+        <div id="pagination"></div>
+        
+        
+        where:  <input type="text" id="val" value="clavecct" disabled /><label for="uno">aaaaa</label><br />
+                    
+                    
+        operador_logico:<select id="selecttt" name="selecttt">
+            <option value="0" >Vselecciona una opcion</option>
+            <option value="1" ><</option>
+            <option value="2" >></option>
+            <option value="3" >=</option>
+        </select>
+        <label for="xxxxx">xxxx</label><br />
+        
+        valor a evaluar ingresado x usuario final:<input type="text" id="val2" name="val2" /><label for="uno">aaaaa</label><br />
+
+        
+        <input type="button" id="v" name="v" value="limpiar campos" /><label for="unozzzzzzzzz">aaaaa</label><br />
+        
+      <!---  
+        <script src="js/sql-query.js"></script>
+        <script src="js/key-query.js"></script>
+        <script src="js/checkbox-query.js"></script>
+        <script src="js/jquery.backstretch.min.js"></script>
+        <script src="js/img-query.js"></script>
+       -->     
+    </body>
+    
+    
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <style>
+ 
+    </style>
+    <script>
+ 
+    </script>
+</head>
+ 
+<body>
+    <div id="dvData">
+        <table>
+            <tr>
+                <th>Primera columna</th>
+                <th>Segunda columna</th>
+                <th>Tercera columna</th>
+            </tr>
+            <tr>
+                <td>row1 Col1</td>
+                <td>row1 Col2</td>
+                <td>row1 Col3</td>
+            </tr>
+            <tr>
+                <td>row2 Col1</td>
+                <td>row2 Col2</td>
+                <td>row2 Col3</td>
+            </tr>
+            <tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr>
+            <tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr><tr>
+                <td>row3 Col1</td>
+                <td>row3 Col2</td>
+                <td>row3 Col3</td>
+            </tr>
+        </table>
+    </div>
+    <br/>
+    <input type="button" id="btnExport" value=" Export Table data into Excel " />
+ 
+    <script>
+    $("#btnExport").click(function(e) {
+        window.open('data:application/vnd.ms-excel,' + encodeURIComponent($('#dvData').html()));
+        e.preventDefault();
+    });
+    </script>
+ 
+</body>
+</html>

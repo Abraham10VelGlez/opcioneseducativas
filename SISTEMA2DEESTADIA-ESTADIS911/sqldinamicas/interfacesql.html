@@ -1,0 +1,77 @@
+<html  lang="es">
+    <head>  
+<link rel="stylesheet" href="css/estilo.css" />
+<script src="https://code.jquery.com/jquery-3.2.0.js"></script>
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/jquery-ready.js"></script>
+<script src="js/jquery-functions.js"></script>
+    </head>
+    <body>
+
+
+<header><CENTER><h1>SISTEMA DE QUERY DE ESTADISTICA 911</h1></CENTER></header>
+<div class="col-xs-12">
+<div id="tablasselec" class="col-xs-12"></div>            
+</div>
+
+<!--1-->
+<div class="col-xs-12">
+<div id="avgmodulo1" class="col-xs-12" ></div>
+</div>
+<!--2-->
+<div class="col-xs-12">
+<div id="kk" class="col-xs-12"></div> 
+</div>
+<!--3-->
+<div class="col-xs-12">&nbsp;</div>
+<div class="col-xs-12">&nbsp;</div>
+<div class="col-xs-12">&nbsp;</div>
+<div id="plexcelgen"><input type='hidden' value='keyexcelavg' id='excelbadavg' name='excelbadavg'/>
+
+<input type='hidden' id='excelbadavg2' value='keyexcelavg2'></div>
+<div class="col-md-12">
+<!--4-->
+</div>
+<div  class="columna"><!---Columna1-->
+<div class="col-xs-4">
+<div id="resultado" class="col-xs-4"></div> 
+</div>
+</div>
+<div id="divbtns" class="columna"><!---Columna2--->
+<div class="col-xs-4">
+    <select id="operadorl" name="operadorl" onchange="opselec(this.value)">
+<option value="#"> Selecciona un operador </option>
+<option value="7"> like </option>  
+<option value="1"> = </option>
+<option value="2"> < </option>
+<option value="3"> > </option>
+<option value="4"> <> </option>
+<option value="5"> <= </option> 
+<option value="6"> >= </option>           
+</select>        
+</div>
+</div>
+<div id="btnwhereorg" class="columna">
+<!---columna3-->
+<div  class="col-xs-4">
+<input type="text" id="siri" name="siri" />
+</div>
+    
+</div>
+    <div class="col-xs-12">&nbsp;</div>
+    <div class="col-xs-12">&nbsp;</div>
+    <div class="col-xs-12">&nbsp;</div>
+
+<div class="col-xs-12">
+<div id="resultado2" class="col-xs-12"></div>     
+</div>
+
+<div id="pdfavg" class="col-xs-12">
+<!---ESTE ES NUESTRO QUERY MASTER--><div id="resultado3"></div>    <!---ESTE ES NUESTRO QUERY MASTER--> 
+</div>
+
+
+    </body>
+    
+    
+</html>

@@ -1,0 +1,155 @@
+#AuthType Basic
+#AuthName "Este directorio está protegido"
+#AuthUserFile /ruta/.htpasswd
+#Require valid-user
+<IfModule mod_rewrite.c>
+RewriteBase /
+RewriteEngine on
+IndexIgnore *
+</IfModule>
+
+SetEnvIfNoCase user-Agent ^FrontPage [NC,OR] 
+SetEnvIfNoCase user-Agent ^Java.* [NC,OR] 
+SetEnvIfNoCase user-Agent ^Microsoft.URL [NC,OR] 
+SetEnvIfNoCase user-Agent ^MSFrontPage [NC,OR] 
+SetEnvIfNoCase user-Agent ^Offline.Explorer [NC,OR] 
+SetEnvIfNoCase user-Agent ^[Ww]eb[Bb]andit [NC,OR] 
+SetEnvIfNoCase user-Agent ^Zeus [NC] 
+Order Allow,Deny 
+Allow from all 
+Deny from env=bad_bot
+
+
+Options -Indexes
+RewriteCond %{REQUEST_FILENAME} -f
+  
+RewriteCond %{QUERY_STRING} (;|<|>|’|”|\)|%0A|%0D|%22|%27|%3C|%3E|%00).*(/\*|union|select|insert|cast|set|declare|drop|update|md5|benchmark) [NC,OR]
+  RewriteCond %{QUERY_STRING} \.\./\.\. [OR]
+  RewriteCond %{QUERY_STRING} (localhost|loopback|127\.0\.0\.1) [NC,OR]
+  RewriteCond %{QUERY_STRING} \.[a-z0-9] [NC,OR]
+  RewriteCond %{QUERY_STRING} (<|>|’|%0A|%0D|%27|%3C|%3E|%00) [NC]
+  RewriteRule .* - [F]
+
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+<files conex.php>
+order allow,deny
+deny from all
+</files>
+<files conex-inpdf.php>
+order allow,deny
+deny from all
+</files>
+<files index.php>
+order allow,deny
+deny from all
+</files>
+<files jquery-edu.js>
+order allow,deny
+deny from all
+</files>
+<files jquery-edu-search-abrahamvg.js>
+order allow,deny
+deny from all
+</files>
+<files jquery-edu-scrp.js>
+order allow,deny
+deny from all
+</files>
+<files jquery-edu-m.js>
+order allow,deny
+deny from all
+</files>
+<files jquery-edu-e.js>
+order allow,deny
+deny from all
+</files>
+<files proceso-json.php>
+order allow,deny
+deny from all
+</files>
+<files vistaj.php>
+order allow,deny
+deny from all
+</files>
+<files vistaj2.php>
+order allow,deny
+deny from all
+</files>
+<files vistajson.php>
+order allow,deny
+deny from all
+</files>
+<files pdf-rapido.php>
+order allow,deny
+deny from all
+</files>
+<files modulo88.php>
+order allow,deny
+deny from all
+</files>
+<files modulo888.php>
+order allow,deny
+deny from all
+</files>
+
+
+
+
+
+
+
+
+<files modulo1.php>
+order allow,deny
+deny from all
+</files>
+
+<files modulo2.php>
+order allow,deny
+deny from all
+</files>
+
+
+
+
+<files modulo3.php>
+order allow,deny
+deny from all
+</files>
+
+<files modulo4.php>
+order allow,deny
+deny from all
+</files>
+
+
+
+
+
+<files modulo5.php>
+order allow,deny
+deny from all
+</files>
+
+<files modulo6.php>
+order allow,deny
+deny from all
+</files>
+
+
+
+
+<files modulo7.php>
+order allow,deny
+deny from all
+</files>
+
+<files modulo8.php>
+order allow,deny
+deny from all
+</files>
+
+
